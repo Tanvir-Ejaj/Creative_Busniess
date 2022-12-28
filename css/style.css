@@ -1,3 +1,17 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Futura Bk";
+  src: url(/fonts/FuturaBookBT.ttf);
+}
+
+@font-face {
+  font-family: "Futura Havy";
+  src: url(/fonts/FUTURAH.TTF);
+}
+
+/* Fonts */
+
 /* Common css area start */
 
 * {
@@ -32,8 +46,9 @@ p {
 }
 
 :root {
-  --primary-font: "Inter", sans-serif;
+  --primary-font: "Futura Bk", sans-serif;
   --secondary-font: "Roboto", sans-serif;
+  --third-font: "Futura Havy", sans-serif;
   --primary-color: #252c6d;
   --secondary-color: #414042;
   --third-color: #4978bc;
@@ -67,7 +82,7 @@ body {
 .nav-link {
   text-transform: uppercase;
   color: var(--primary-color);
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
   font-weight: var(--regular-font-weight);
   font-size: 16px;
   padding: 0 20px !important;
@@ -91,10 +106,10 @@ body {
 
 .banner-text h3 {
   font-size: 60px;
-  font-weight: var(--bold-font-weight);
+  font-weight: var(--regular-font-weight);
   color: var(--primary-color);
   line-height: 72px;
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   padding-right: 65px;
   padding-bottom: 40px;
 }
@@ -113,7 +128,7 @@ body {
   font-size: 25px;
   font-weight: var(--regular-font-weight);
   color: var(--third-color);
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
 }
 
 .banner-text a i {
@@ -162,9 +177,9 @@ body {
 
 .banner-2-text h3 {
   font-size: 30px;
-  font-weight: var(--bold-font-weight);
+  font-weight: var(--regular-font-weight);
   color: var(--fourth-color);
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   line-height: 140%;
   padding-bottom: 50px;
 }
@@ -200,7 +215,7 @@ body {
 .concern-text h3 {
   font-size: 60px;
   font-weight: var(--regular-font-weight);
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   color: var(--fifth-color);
   line-height: 72px;
 }
@@ -216,7 +231,7 @@ body {
 }
 
 .concern-text a {
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   font-weight: var(--regular-font-weight);
   font-size: 25px;
   line-height: 30px;
@@ -252,9 +267,9 @@ body {
 }
 
 .shape-2 {
-  position: absolute;
-  bottom: -23%;
-  left: -23%;
+	position: absolute;
+	bottom: -28%;
+	left: -23%;
 }
 
 /* Concern area end */
@@ -302,9 +317,9 @@ body {
 .comment-text h3 {
   font-size: 30px;
   line-height: 140%;
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   color: var(--third-color);
-  font-weight: var(--bold-font-weight);
+  font-weight: var(--regular-font-weight);
   padding-bottom: 5px;
 }
 
@@ -340,7 +355,7 @@ body {
 .counter-text h3 {
   font-size: 45px;
   line-height: 150%;
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   color: var(--fourth-color);
   font-weight: var(--bold-font-weight);
 }
@@ -358,7 +373,7 @@ body {
   font-size: 60px;
   line-height: 72px;
   font-weight: var(--regular-font-weight);
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   color: var(--third-color);
   padding-bottom: 40px;
 }
@@ -428,7 +443,7 @@ body {
   font-size: 24px;
   line-height: 140%;
   font-weight: var(--regular-font-weight);
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   color: var(--third-color);
   text-transform: uppercase;
 }
@@ -447,7 +462,7 @@ body {
 
 .award-btn a {
   font-size: 25px;
-  font-family: var(--primary-font);
+  font-family: var(--third-font);
   font-weight: var(--regular-font-weight);
   color: var(--fourth-color);
   padding: 20px 40px;

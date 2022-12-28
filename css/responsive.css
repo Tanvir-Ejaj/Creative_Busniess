@@ -1,7 +1,209 @@
 /* Lg device area start */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  .banner-text h3 {
+    margin-top: 51px;
+    font-size: 45px;
+    padding: 0;
+    line-height: 72px;
+  }
 
+  .banner-text p {
+    font-size: 18px;
+    padding: 20px 0 30px 0;
+  }
+
+  .banner-pic img {
+    width: 100%;
+  }
+
+  .play-btn {
+    position: absolute;
+    top: 22%;
+    left: 67%;
+  }
+
+  .play-btn a {
+    font-size: 14px;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .shape-1 {
+    width: 32%;
+    height: 200px;
+    top: -17px;
+    right: -16px;
+    z-index: -1;
+  }
+
+  .banner-2-pic {
+    top: 0;
+    left: 22px;
+    margin-bottom: 43px;
+  }
+
+  .banner-2-pic img {
+    width: 100%;
+  }
+
+  .iso {
+    top: 58%;
+    left: 25%;
+  }
+
+  .iso svg {
+    width: 100px;
+  }
+
+  .banner-2-text h3 {
+    font-size: 20px;
+    line-height: 150%;
+    padding-bottom: 50px;
+  }
+
+  .banner-2-text p {
+    font-size: 20px;
+    line-height: 150%;
+    padding-bottom: 50px;
+  }
+
+  .concern-text h3 {
+    font-size: 45px;
+    line-height: 72px;
+  }
+
+  .concern-text p {
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .shape-2 {
+    position: absolute;
+    bottom: -23%;
+    left: -15%;
+  }
+
+  #ceo{
+    padding: 53px 0;
+  }
+
+  .ceo-pic {
+    position: absolute;
+    top: -14%;
+    left: -4%;
+    z-index: 1;
+  }
+
+  .ceo-pic img {
+    height: 483px;
+    width: 370px;
+  }
+
+  .company-main {
+    margin-top: 40px;
+  }
+
+  .comment-text p {
+    padding: 0;
+    font-size: 18px;
+  }
+
+  .comment-text img {
+    top: -37%;
+    left: 43%;
+    display: none;
+  }
+
+  .comment-text h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  .concern-text h6 {
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .counter-inner {
+    margin: 10px 0;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .header h3 {
+    font-size: 45px;
+    padding-bottom: 20px;
+  }
+
+  .header p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .text-parts {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .text-parts h3,
+  .text-parts p{
+    text-align: left;
+  }
+
+  .award-btn {
+    text-align: center;
+  }
+
+  .events-text p {
+    font-size: 16px;
+  }
+
+  .events-text h3 {
+    padding-right: 0;
+    font-size: 20px;
+  }
+
+  .overlay a {
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .last-footer-head {
+    flex-direction: column;
+  }
+
+  .f-link a {
+    padding: 15px 30px;
+  }
+
+  .f-head {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .form-check label {
+    padding-right: 0;
+  }
+
+  .f-link {
+    width: 100%;
+  }
+
+  .f-head h3::after {
+    width: 100%;
+  }
+
+  .copyright {
+    margin-top: 30px;
+  }
 }
 
 /* Lg device area end */
@@ -164,7 +366,6 @@
     left: 43%;
   }
 
-
   .comment-text {
     width: 100%;
     margin-top: 119px;
@@ -200,7 +401,6 @@
     left: 43%;
   }
 
-
   .ceo-pic {
     position: static;
     overflow: hidden;
@@ -226,7 +426,6 @@
     top: -37%;
     left: 43%;
   }
-
 
   .comment-text h3 {
     padding-top: 20px;
