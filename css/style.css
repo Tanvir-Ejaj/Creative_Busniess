@@ -457,7 +457,7 @@ body {
 }
 
 .text-parts {
-  margin-top: 76px;
+  margin-top: 30px;
 }
 
 .text-parts h6 {
@@ -471,7 +471,7 @@ body {
 .text-parts h3 {
   font-size: 24px;
   line-height: 140%;
-  font-weight: var(--regular-font-weight);
+  font-weight: var(--bold-font-weight);
   font-family: var(--third-font);
   color: var(--third-color);
   text-transform: uppercase;
@@ -578,13 +578,13 @@ body {
 
 .events-text h3 {
   padding-top: 10px;
-  padding-right: 100px;
+  padding-right: 127px;
   font-size: 30px;
   line-height: 140%;
   text-transform: uppercase;
   color: var(--third-color);
-  font-weight: var(--regular-font-weight);
-  font-family: var(--primary-font);
+  font-weight: var(--bold-font-weight);
+  font-family: var(--secondary-font);
 }
 
 /* Events area end */
